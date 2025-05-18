@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c178i1o5f7nrf"]
+
+[ext_resource type="Texture2D" uid="uid://cp0862p7rf8e1" path="res://ascii-art (6).png" id="1_6m4eb"]
+
+[node name="1" type="Node2D"]
+
+[node name="test" type="Area2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="test"]
+offset_right = 4920.0
+offset_bottom = 1680.0
+texture = ExtResource("1_6m4eb")
+stretch_mode = 1
